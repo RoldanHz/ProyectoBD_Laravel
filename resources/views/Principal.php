@@ -49,7 +49,7 @@
             <a href="/transacciones/t2" class="btn btn-primary">Transacción2</a>
             </div>
             <div class="col-4">
-            <!--<a href="descarga" class="btn btn-primary">Descargar</a>-->
+            <a href="basededatos" class="btn btn-primary">Mostrar</a>
             </div>
         </div>
         <br>

@@ -21,6 +21,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [UserController::class, 'index']);
 #realizar la descarga desde el botón
 Route::get('/descarga', [UserController::class, 'descarga']);
+#mostrar la base de datos con datos
+Route::get('/basededatos', [UserController::class, 'verbd']);
 #para mostrar las vistas
 Route::get('/vistas/v1', [UserController::class, 'vista1']);
 Route::get('/vistas/v2', [UserController::class, 'vista2']);

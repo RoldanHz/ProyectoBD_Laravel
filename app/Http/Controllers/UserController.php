@@ -13,6 +13,8 @@ class UserController extends Controller
     public function index() {
         return view('Principal');
     }
+
+    #función para realizar la descarga de la base de datos
     public function descarga()
     {
         #$servicios = Usuario::all();
@@ -29,7 +31,10 @@ class UserController extends Controller
         return response()->download($ubicacionDescarga)->deleteFileAfterSend(true);
     }
 
-
+    #función para mostrar la base de datos
+    public function verbd() {
+        return view("basededatos");
+    }
 
 
 
